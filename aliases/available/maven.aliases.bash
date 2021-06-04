@@ -16,3 +16,5 @@ alias mcpsk='mcp -Dmaven.test.skip=true'
 
 alias mct='mvn clean test'
 alias mctd='mct -Dmaven.surefire.debug="-Xdebug -Xrunjdwp:transport=dt_socket,address=9000,server=y,suspend=y"'
+
+alias mcdsk='mvn clean deploy -DskipTests'
